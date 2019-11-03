@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATM Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id='kurspolje' class="hidden">  
+Kurs<input type="number" id='exchangeRate'><br/></div> 
+Iznos<input type="number" id='amount'><br/>
+<input type="radio" name="choice" id="totalOnCard">Ovoliko dolara imam na kartici, i zelim da vidim koliko mogu da podignem dinara<br/>
+<input type="radio" name="choice" id="requiredWithdrawal">Ovoliko zelim da podignem dinara, i zelim da vidim koliko ce mi skinuti dolara sa kartice<br/>
+
+<button id='calculateButton' disabled>Izracunaj</button>
+
+<p id="result"></p>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

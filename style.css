@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    text-align:center;
+    font-family:'Open Sans', Arial, sans-serif;
+    line-height:2em;
+}
+
+button {
+    background-color:#ff6600;
+    font-family:'Open Sans', Arial, sans-serif;
+    font-size:16px;
+    border:0px;
+    padding:5px 20px;
+}
+
+.hidden {
+    display:none;
+}
